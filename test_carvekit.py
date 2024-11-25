@@ -34,4 +34,5 @@ interface = HiInterface(object_type="hairs-like",  # Can be "object" or "hairs-l
 images_without_background = interface(['app_icon.jpg'])
 cat_wo_bg = images_without_background[0]
 cat_wo_bg.save('2.png')
+print("Image processing complete! Saved as 2.png.")
 
