@@ -16,7 +16,7 @@ from carvekit.api.high import HiInterface
 # input_image = "app_icon.png"  # Replace with the path to your test image
 # result = interface([input_image])
 # result[0].save("output_image.png")  # Save the result
-# print("Image processing complete! Saved as output_image.png.")
+# print("Image processing complete! Saved as output_image.png." )
 import torch
 from carvekit.api.high import HiInterface
 
